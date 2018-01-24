@@ -33,7 +33,7 @@ def plot(x,y,w,e,n): #Plots the data, e is error and n is name
     plt.title(t)
     plt.grid()
     plt.axis('tight')
-    plt.savefig("regression_plot_"+n+".pdf")
+    plt.savefig("regression_plot_"+n+".png")
     plt.show()
 
 def main():
